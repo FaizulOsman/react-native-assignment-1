@@ -79,6 +79,44 @@ export default class AppStack extends Component {
             </View>
           </View>
         </View>
+
+        <View style={{marginTop: 30}}>
+          <View style={[styles.linkItem]}>
+            <View style={[styles.iconWrapper]}>
+              <Image source={require('../assets/images/003-pin.png')} />
+            </View>
+            <Text style={[styles.grayColor, {marginLeft: 20, fontSize: 16}]}>
+              San Francisco
+            </Text>
+          </View>
+          <View style={[styles.linkItem, {marginTop: 15}]}>
+            <View style={[styles.iconWrapper]}>
+              <Image source={require('../assets/images/002-url.png')} />
+            </View>
+            <Text style={[styles.grayColor, {marginLeft: 20, fontSize: 16}]}>
+              https://github.blog
+            </Text>
+          </View>
+          <View style={[styles.linkItem, {marginTop: 15}]}>
+            <View style={[styles.iconWrapper]}>
+              <Image
+                source={require('../assets/images/004-twitter.png')}
+                style={{opacity: 0.5}}
+              />
+            </View>
+            <Text style={[{color: 'lightgray', marginLeft: 20, fontSize: 16}]}>
+              Not Available
+            </Text>
+          </View>
+          <View style={[styles.linkItem, {marginTop: 15}]}>
+            <View style={[styles.iconWrapper]}>
+              <Image source={require('../assets/images/001-building.png')} />
+            </View>
+            <Text style={[styles.grayColor, {marginLeft: 20, fontSize: 16}]}>
+              @github
+            </Text>
+          </View>
+        </View>
       </View>
     );
   }
