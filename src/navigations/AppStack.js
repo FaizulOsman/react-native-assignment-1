@@ -37,6 +37,48 @@ export default class AppStack extends Component {
             odio. Quisque volutpat mattis eros.
           </Text>
         </View>
+
+        <View style={{marginTop: 30}}>
+          <View style={[styles.cardContainer]}>
+            <View>
+              <Text style={[styles.grayColor, styles.textCenter]}>Repos</Text>
+              <Text
+                style={[
+                  styles.blackColor,
+                  styles.textCenter,
+                  {fontSize: 20, fontWeight: '600'},
+                ]}>
+                8
+              </Text>
+            </View>
+            <View>
+              <Text style={[styles.grayColor, styles.textCenter]}>
+                Followers
+              </Text>
+              <Text
+                style={[
+                  styles.blackColor,
+                  styles.textCenter,
+                  {fontSize: 20, fontWeight: '600'},
+                ]}>
+                3938
+              </Text>
+            </View>
+            <View>
+              <Text style={[styles.grayColor, styles.textCenter]}>
+                Following
+              </Text>
+              <Text
+                style={[
+                  styles.blackColor,
+                  styles.textCenter,
+                  {fontSize: 20, fontWeight: '600'},
+                ]}>
+                9
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
     );
   }
