@@ -25,6 +25,18 @@ export default class AppStack extends Component {
             </Text>
           </View>
         </View>
+
+        <View style={{marginTop: 30}}>
+          <Text
+            style={[
+              styles.grayColor,
+              styles.commonFontSize,
+              {marginTop: 5, lineHeight: 25, letterSpacing: 1},
+            ]}>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+            odio. Quisque volutpat mattis eros.
+          </Text>
+        </View>
       </View>
     );
   }
